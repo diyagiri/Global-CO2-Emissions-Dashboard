@@ -1,74 +1,68 @@
+# 🌍 Global CO₂ Emissions & Climate Impact Dashboard
 
-🌍 Global CO₂ Emissions & Climate Impact — Tableau Dashboard
-📊 Overview
-This Tableau project explores global CO₂ emissions trends, country-level patterns, and climate impact through interactive, multi-tab dashboards.
+This Tableau project explores global and country-level CO₂ emissions using a clean, interactive dashboard experience. Built using data from *Our World in Data*, the dashboards highlight historical trends, top emitters, per capita emissions, and future forecasts.
 
-It answers key questions like:
+---
 
-How are CO₂ emissions evolving over time?
+## 📊 Dashboards Included
 
-Which countries are top emitters?
+### 1️⃣ Global Overview – The Global Carbon Crisis
+A high-level snapshot of the climate situation:
+- 🌡️ Global KPIs: Total CO₂, temperature rise, per capita emissions
+- 📈 Emission trends over time
+- 🗺️ Choropleth map of CO₂ by country
+- 🏭 Top 10 global emitters
+- 🔘 Bubble chart: Cumulative CO₂ vs Share of Global CO₂
 
-How do emissions compare to population and GDP?
+### 2️⃣ Country-Level CO₂ Emissions Dashboard
+Zoom in to analyze any specific country:
+- 📉 CO₂ over time with YoY growth (color-coded)
+- 👤 CO₂ per capita (treemap)
+- ⚡ Emissions by fuel type (area + pie)
+- 🔮 Forecasted CO₂ emissions (5-year projection)
+- 💰 CO₂ vs GDP scatter plot for economic comparison
 
-What are the forecasts for the coming years?
+---
 
-📁 Dashboards Included
-1️⃣ Global Overview – The Global Carbon Crisis
-A high-level summary showing:
+## 🔍 Key Insights
 
-🌡️ Global temperature rise due to CO₂
+- **Global CO₂ emissions are rising**, despite climate commitments.
+- **India** and **China** show sharp total increases, but remain moderate in per capita terms.
+- **Coal** is the leading emission source for many countries.
+- Countries like the **USA** have high cumulative emissions, but their annual share is declining.
+- A strong link exists between **GDP and CO₂**, but **policy efficiency** varies across countries.
+- **Forecasts** suggest emissions will rise further if no major interventions occur.
 
-📈 CO₂ trend and cumulative emissions
+---
 
-🗺️ CO₂ by country (world map)
+## 🎯 So What?
 
-🏭 Top global emitters
+- 📌 Enables governments and climate bodies to **target high-impact sectors or fuels**.
+- 🧭 Helps users explore **per capita and historical responsibility** dynamics.
+- 🔍 Supports data-driven storytelling for **climate journalism or activism**.
+- 🔮 Forecasting adds a predictive lens for **climate planning and policy design**.
 
-📌 CO₂ share vs cumulative emissions (bubble plot)
+---
 
-2️⃣ Country-Level CO₂ Emissions Dashboard
-Explore emissions at the individual country level:
+## 📁 Dataset
 
-📉 CO₂ over time & YoY growth (color-coded)
+- **Source:** [Our World in Data – CO₂ and Greenhouse Gas Emissions](https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions)
+- Cleaned in CSV format with added fields like:
+  - CO₂ by fuel type
+  - CO₂ per GDP
+  - YoY growth, cumulative values, and share of global CO₂
 
-🌱 Per capita emissions (treemap)
+---
 
-🔌 Emissions by fuel type (area & pie charts)
+## 🛠️ Tools Used
 
-🔮 5-year CO₂ forecast
+- Tableau Public (visualization & dashboarding)
+- Excel (initial cleaning)
+- Python (for deeper preprocessing – optional)
 
-💰 Scatter plot of CO₂ vs GDP across countries (highlighting selected country)
+---
 
-🧪 Features
-Built in Tableau Public
+## 🖥️ View Live Dashboard
 
-Fully interactive: dropdown filters by country & year
+🔗 [View on Tableau Public]([https://public.tableau.com/](https://public.tableau.com/views/GlobalCO2EmissionDashboard_17439578930190/CountryLevelCO2Emissions?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))  
 
-Clean layout with optimized dimensions for most laptop screens
-
-Includes tooltips and highlighting for deeper insights
-
-Color-coded YoY growth (Green = drop, Red = rise)
-
-📂 Dataset
-Data Source: Our World in Data - CO₂ and Greenhouse Gas Emissions
-Pre-cleaned and enriched to include:
-
-Emissions by fuel type
-
-GDP, population, per capita metrics
-
-Forecasts and cumulative calculations
-
-🚀 How to View
-You can view the published Tableau dashboards here
-
-(https://public.tableau.com/views/GlobalCO2EmissionDashboard_17439578930190/CountryLevelCO2Emissions?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
-🛠️ Tools Used
-Tableau Public (Dashboarding & Interactivity)
-
-Excel / CSV (Data Cleaning)
-
-Python  for early-stage data wrangling (if applicable)
