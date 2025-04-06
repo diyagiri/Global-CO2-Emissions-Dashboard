@@ -64,5 +64,5 @@ Zoom in to analyze any specific country:
 
 ## 🖥️ View Live Dashboard
 
-🔗 [View on Tableau Public]([https://public.tableau.com/](https://public.tableau.com/views/GlobalCO2EmissionDashboard_17439578930190/CountryLevelCO2Emissions?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))  
-
+🔗 [View on Tableau Public](https://public.tableau.com/)  
+*(https://public.tableau.com/views/GlobalCO2EmissionDashboard_17439578930190/CountryLevelCO2Emissions?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)*
